@@ -1,0 +1,15 @@
+.Container{
+    display: flex;
+}
+.imagebox{
+    width: 25%;text-align: right;
+}
+.text{
+    width: 70%;
+}
+
+button{
+    background-color: rgb(48, 156, 206);
+    color: rgb(214, 235, 235)
+    
+};

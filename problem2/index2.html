@@ -1,0 +1,149 @@
+<!-- ### Problem 2:-
+Build a various elements shown below using tables and other HTML tags without using CSS
+![image](Resources/image_2.png)
+
+ -->
+<!-- solution -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>problem2</title>
+</head>
+<body>
+    <h1>An ordered list</h1>
+    <table border="3">
+        <thead>
+            <tr>
+                <th>Ordered list-Type 1</th>
+                <th>Ordered list-Type 2</th>
+                <th>Ordered list-Type 3</th>
+                <th>Ordered list-Type 4</th>
+                <th>Ordered list-Type 5</th>
+                <th>Ordered list-Different start</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <ol type="1">
+                        <li>Apple</li>
+                        <li>Mangoes</li>
+                        <li>Oranges</li>
+                        <li>Pears</li>
+                    </ol>
+                </td>
+                <td>
+                    <ol type="I">
+                        <li>Apple</li>
+                        <li>Mangoes</li>
+                        <li>Oranges</li>
+                        <li>Pears</li>
+                    </ol>
+                </td>
+                <td>
+                    <ol type="i">
+                        <li>Apple</li>
+                        <li>Mangoes</li>
+                        <li>Oranges</li>
+                        <li>Pears</li>
+                    </ol>
+                </td>
+                <td>
+                    <ol type="A">
+                        <li>Apple</li>
+                        <li>Mangoes</li>
+                        <li>Oranges</li>
+                        <li>Pears</li>
+                    </ol>
+                </td>
+                <td>
+                    <ol type="a">
+                        <li>Apple</li>
+                        <li>Mangoes</li>
+                        <li>Oranges</li>
+                        <li>Pears</li>
+                    </ol>
+                 </td>
+                 <td>
+                    <ol type="i" start="4">
+                        <li>Apple</li>
+                        <li>Mangoes</li>
+                        <li>Oranges</li>
+                        <li>Pears</li>
+                    </ol>
+                 </td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>A Description List</h1>
+    <dl>
+        <dt>HTML</dt>
+        <dd>-This stands for Hyper Text Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>-This stands for Cascading Style Sheets</dd>
+  </dl>
+  <h1>An unordered list</h1>
+  <table border = "3">
+    <thead>
+        <tr>
+            <th>Unordered List-Type 1</th>
+            <th>Unordered List-Type 2</th>
+            <th>Unordered List-Type 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <ul>
+                    <li>Spinach</li>
+                    <li>Tomato</li>
+                    <li>Potato</li>
+                    <li>Ginger</li>
+                    </ul>
+                 </td>
+                 <td>
+                    <ul type="square">
+                        <li>Spinach</li>
+                    <li>Tomato</li>
+                    <li>Potato</li>
+                    <li>Ginger</li>
+                </ul>
+            </td>
+            <td>
+                <ul type="circle">
+                    <li>Beetroot</li>
+                <li>Ginger</li>
+                <li>Potato</li>
+                <li>Radish</li>
+            </ul>
+        </td>
+        </tr>
+    </tbody>
+  </table>
+  <h1>Media elements</h1>
+  <table border="3" cellspacing="1" cellpadding="3" width="20%">
+    <thead>
+        <tr>
+            <th>Image</th>
+            <th>Progressbar</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <img src="image/img.png.jpg"alt="Person Walking Between Green Forest Trees
+                " width="100%">
+            </td>
+            <td>
+                <label for="file"></label>
+                <progress id ="file" value="30" max="100">30%</progress>
+
+            </td>
+        </tr>
+    </tbody>
+  </table>
+</body>
+</html>
